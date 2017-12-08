@@ -6,6 +6,8 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 ***
 
-# To be publicly on the publication of this paper.
-# The dataset of LSVH will also be publicly.
+# To be public on the publication of this paper.
+# The dataset of LSVH will also be publicly available.
+
+
 

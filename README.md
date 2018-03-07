@@ -45,7 +45,7 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
    sh download_PVANet_imagenet.sh
    ```
 
-3. Enter the `SINet/data/kitti/window_files`, and replace `/your/KITTI/path/` with your KITTI path.
+3. Enter the `SINet/data/kitti/window_files`, and replace `/home/xwhu/KITTI/KITTI/` with your KITTI path.
   
    Another way is to run `mscnn_kitti_car_window_file.m` to generate the `txt` files that include the pathes of KITTI images.
 

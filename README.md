@@ -55,7 +55,7 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
 8. Use MATLAB to run the `weight_2nd_ini.m`
 9. Run `sh train_second_stage.sh` in the command window. (using around 13.5 hour on a single TITAN X)
 
-* If the training does not converge, try some other random seeds. You should obtain fair performance after a few tries. Due to the randomness, you are difficult to fully reproduce the same models, but the performance should be close.
+Tip: If the training does not converge, try some other random seeds. You should obtain fair performance after a few tries. Due to the randomness, you are difficult to fully reproduce the same models, but the performance should be close.
 
 
 ## Testing on KITTI car dataset

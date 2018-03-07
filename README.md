@@ -77,7 +77,7 @@ Tip: If the training does not converge, try some other random seeds. You should 
 
 3. Without using cuDNN in testing, the running speed is higher.
 
-## Training on other datasets.
+## Training on other datasets
 
 1. Enter the `SINet/data/kitti/` and modify the code `mscnn_kitti_car_window_file.m` to generate the `txt` files for your datasets.
 
@@ -85,7 +85,7 @@ Tip: If the training does not converge, try some other random seeds. You should 
 
 3. Others are the same as before.
 
-## Testing on other datasets.
+## Testing on other datasets
 
 1. Modify the `run_SINet_2_branch.m`, which generates the detection results in one `txt` file. 
 

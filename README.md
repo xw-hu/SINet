@@ -35,7 +35,7 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
    make matcaffe
    ```
    
- ## Traing on KITTI car dataset
+ ## Training on KITTI car dataset
 
 1. Download the KITTI dataset by yourself.
 

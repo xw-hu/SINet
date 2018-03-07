@@ -71,7 +71,7 @@ Tip: If the training does not converge, try some other random seeds. You should 
 
 ## Testing on KITTI car dataset
 
-1. Use MATLAB to run `run_SINet_2_branch.m` in `SINet/examples/kitti_car`. It will generate the detection results in `SINet/examples/kitti_car/detections`. (In `run_SINet_detection.m`, let `show = 1`, we can show and save the detection results, but the speed will be slower.)
+1. Use MATLAB to run `run_SINet_2_branch.m` in `SINet/examples/kitti_car`. It will generate the detection results in `SINet/examples/kitti_car/detections`. (In `run_SINet_detection.m`, let `show = 1`, we can show and save the detection results, but the speed is slower.)
 
 2. We can get the quantitive results (average Pprecision) in three levels: "easy", "moderate" and "hard" (same as the KITTI benchmark).
 

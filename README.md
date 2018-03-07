@@ -89,5 +89,5 @@ Tip: If the training does not converge, try some other random seeds. You should 
 
 1. Modify the `run_SINet_2_branch.m` in `SINet/examples/kitti_car`. It will generate the detection results in one `txt` file. 
 
-2. Use other methods to calculate the Average Precision such as VOC2012 criterion or KITTI criterion for your results (in `SINet/examples/lsvh_result`, we use the implementation of VOC2011 evaluation code to calculate the mAP for our LSVH dataset).
+2. Use other methods to calculate the Average Precision such as VOC2012 criterion or KITTI criterion for your results (in `SINet/examples/lsvh_result`, we use the implementation of VOC2011 evaluation code to calculate the mAP in our LSVH dataset).
 

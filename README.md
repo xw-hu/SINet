@@ -60,7 +60,7 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
    sh train_first_stage.sh
    ```
 8. Use MATLAB to run `weight_2nd_ini.m`
-9. In the command window, run (around 13.5 hour on a single TITAN X):
+9. In the command window, run (around 13.5 hours on a single TITAN X):
 
    ```shell
    sh train_second_stage.sh

@@ -1,0 +1,4 @@
+g++ -O3 -DNDEBUG -o evaluate_object evaluate_object.cpp
+g++ -O3 -DNDEBUG -o evaluate_object_small evaluate_object_small.cpp
+g++ -O3 -DNDEBUG -o evaluate_object_medium evaluate_object_medium.cpp
+g++ -O3 -DNDEBUG -o evaluate_object_large evaluate_object_large.cpp

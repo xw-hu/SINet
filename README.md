@@ -12,11 +12,11 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
 
 ## Requirements
 
-1. Without cuDNN during testing, the same running speed described in our paper can be acquired. cuDNN is required to avoid out-of-memory when training the models with VGG network.
+1. cuDNN is required to avoid out-of-memory when training the models with VGG network.
 
 2. We also need MATLAB scripts to run the auxiliary code, caffe MATLAB wrapper is required. Please build matcaffe before running the detection demo. 
 
-3. This code has been tested on Ubuntu 14.04, CUDA 7.0, cuDNN v3 with an NVIDIA TITAN X GPU (the running speed described in paper) and Ubuntu 16.04. CUDA 8.0 with an NVIDIA TITAN X(Pascal) GPU.
+3. This code has been tested on Ubuntu 14.04, CUDA 7.0, cuDNN v3 with an NVIDIA TITAN X GPU and Ubuntu 16.04. CUDA 8.0 with an NVIDIA TITAN X(Pascal) GPU. 
   
 
 ## Installation
@@ -55,16 +55,16 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
 8. Use MATLAB to run the `weight_2nd_ini.m`
 9. Run `sh train_second_stage.sh` in the command window. (using around 13.5 hour on a single TITAN X)
 
-** If the training does not converge, try some other random seeds. You should obtain fair performance after a few tries. Due to the randomness, you are difficult to fully reproduce the same models, but the performance should be close.
+If the training does not converge, try some other random seeds. You should obtain fair performance after a few tries. Due to the randomness, you are difficult to fully reproduce the same models, but the performance should be close.
 
 
 ## Testing on KITTI car dataset
 
-1. Use MATLAB to run the `run_SINet_2_branch.m` in `SINet/examples/kitti_car`. It will generate the detection results in `SINet/examples/kitti_car/detections`. 
-   ** In `run_SINet_detection.m`, let `show = 1`, the detection results will be shown and saved in `results/`. But the speed will be slower.
+1. Use MATLAB to run the `run_SINet_2_branch.m` in `SINet/examples/kitti_car`. It will generate the detection results in `SINet/examples/kitti_car/detections`. (In `run_SINet_detection.m`, let `show = 1`, the detection results will be shown and saved in `./results/`, but the speed will be slower.)
 
 2. We can get the quantitive result (Average Precision) in three levels: "easy", "moderate" and "hard" (same as the KITTI benchmark).
 
+3. Witout using cuDNN in testing, the running speed is higher.
 
 ## Training on other datasets.
 

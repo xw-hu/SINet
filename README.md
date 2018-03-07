@@ -87,7 +87,7 @@ Tip: If the training does not converge, try some other random seeds. You should 
 
 ## Testing on other datasets.
 
-1. Modify the `run_SINet_2_branch.m`, which generates the detection results in the `txt` file. 
+1. Modify the `run_SINet_2_branch.m`, which generates the detection results in one `txt` file. 
 
 2. Use the evaluation functions provided by KITTI or other benchmarks to calculate the quantitative results (in `SINet/examples/lsvh_result`, we use the VOC2011 evaluation code to calculate the mAP in our LSVH dataset).
 

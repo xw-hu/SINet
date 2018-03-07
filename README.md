@@ -12,11 +12,11 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
 
 ## Requirements
 
-1. cuDNN is required to avoid out-of-memory when training the models with VGG network.
+1. This code has been tested on Ubuntu 14.04, CUDA 7.0, cuDNN v3 with the NVIDIA TITAN X GPU and Ubuntu 16.04. CUDA 8.0 with the NVIDIA TITAN X(Pascal) GPU. 
 
 2. We also need MATLAB scripts to run the auxiliary code, caffe MATLAB wrapper is required. Please build matcaffe before running the detection demo. 
 
-3. This code has been tested on Ubuntu 14.04, CUDA 7.0, cuDNN v3 with an NVIDIA TITAN X GPU and Ubuntu 16.04. CUDA 8.0 with an NVIDIA TITAN X(Pascal) GPU. 
+3. cuDNN is required to avoid out-of-memory when training the models with VGG network.
   
 
 ## Installation

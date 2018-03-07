@@ -20,7 +20,7 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
   
 
 ## Installation
-1. Clone the DSC repository, and we'll call the directory that you cloned SINet into `SINet`.
+1. Clone the SINet repository, and we'll call the directory that you cloned SINet into `SINet`.
 
     ```shell
     git clone https://github.com/xw-hu/SINet.git

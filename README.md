@@ -39,7 +39,7 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
 
 1. Download the KITTI dataset by yourself.
 
-2. Download the PAVNet pretrained model:  Go to the folder `./model/PVA/` and Run `sh download_PVANet_imagenet.sh`.
+2. Download the PAVNet pretrained model:  Go to the folder `SINet/models/PVA/` and Run `sh download_PVANet_imagenet.sh`.
 
 3. Go to the folder `SINet/data/kitti/window_files`, and replace `/your/KITTI/path/training/image_2/000000.png` with your KITTI path.
   

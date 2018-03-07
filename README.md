@@ -39,20 +39,32 @@ Submitted to IEEE Transactions on Intelligent Transportation Systems.
 
 1. Download the KITTI dataset by yourself.
 
-2. Download the PAVNet pretrained model:  Enter the `SINet/models/PVA/` and run `sh download_PVANet_imagenet.sh`.
+2. Enter the `SINet/models/PVA/` to download the PAVNet pretrained model:
+
+   ```shell
+   sh download_PVANet_imagenet.sh
+   ```
 
 3. Enter the `SINet/data/kitti/window_files`, and replace `/your/KITTI/path/training/image_2/000000.png` with your KITTI path.
   
-   Another way is to run `mscnn_kitti_car_window_file.m` to generate the `txt` files that include the path of KITTI images.
+   Another way is to run `mscnn_kitti_car_window_file.m` to generate the `txt` files that include the pathes of KITTI images.
 
 4. Run `SINet/data/kitti/statistical_size.m` to calculate the parameters for `ROISplit` Layer in `trainval_2nd.prototxt`. 
 
 5. (optional) Run `SINet/data/kitti/anchor_parameter.m` to calculate the anchors for `ImageGtData` layer. This is determined by K-means.
 
 6. Enter the `SINet/examples/kitti_car/SINet-pva-576-2-branch`.
-7. Run `sh train_first_stage.sh` in the command window. (using around 1 hour on a single TITAN X)
-8. Use MATLAB to run the `weight_2nd_ini.m`
-9. Run `sh train_second_stage.sh` in the command window. (using around 13.5 hour on a single TITAN X)
+7. In the command window, run (using around 1 hour on a single TITAN X):
+   
+   ```shell
+   sh train_first_stage.sh
+   ```
+8. Use MATLAB to run `weight_2nd_ini.m`
+9. In the command window, run (using around 13.5 hour on a single TITAN X):
+
+   ```shell
+   sh train_second_stage.sh
+   ```
 
 Tip: If the training does not converge, try some other random seeds. You should obtain fair performance after a few tries. Due to the randomness, you are difficult to fully reproduce the same models, but the performance should be close.
 
@@ -63,7 +75,7 @@ Tip: If the training does not converge, try some other random seeds. You should 
 
 2. We can get the quantitive result (Average Precision) in three levels: "easy", "moderate" and "hard" (same as the KITTI benchmark).
 
-3. Witout using cuDNN in testing, the running speed is higher.
+3. Without using cuDNN in testing, the running speed is higher.
 
 ## Training on other datasets.
 

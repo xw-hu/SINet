@@ -1,6 +1,7 @@
 % Copyright (c) 2016 The Chinese University of Hong Kong
 % Written by Xiaowei Hu [xwhu@cse.cuhk.edu.hk]
 
+addpath('../../../matlab');
 caffe.reset_all();
 
 caffe.set_mode_gpu();

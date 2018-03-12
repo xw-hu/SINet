@@ -6,7 +6,7 @@ image_dir = [root_dir 'images/'];
 label_dir = [root_dir 'labels/'];
 
 % choose which data list to generate
- dataType = 'trainval';
+ dataType = 'train';
 % dataType = 'test';
 
 image_name = importdata(['ImageSets/' dataType '.txt']);

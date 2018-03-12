@@ -22,7 +22,7 @@ layer {
     mean_value: 120
   }
   image_gt_data_param {
-    source: "../../../data/LSVH/window_files/mscnn_window_file_lsvh_vehicle_trainval.txt"
+    source: "../../../data/LSVH/window_files/mscnn_window_file_lsvh_vehicle_train.txt"
     batch_size: 4
     coord_num: 4
     resize_width: 1344

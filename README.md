@@ -17,6 +17,12 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 &nbsp;&nbsp;&nbsp;&nbsp;  publisher={IEEE}        
 }
 
+## LSVH Dataset
+
+Our LSVH dataset is available for download at [Google Drive](https://drive.google.com/open?id=1yHeuZia3pbcbn8OLkotJGJGhczI7gM3e).       
+The split of train.txt and test.txt is based on the Strategy 1, and please use `SINet/data/LSVH/strategy2.m` to generate the train.txt and test.txt based on the Strategy 2; see paper for details.
+
+
 ## Requirements
 
 1. This code has been tested on Ubuntu 14.04, CUDA 7.0, cuDNN v3 with the NVIDIA TITAN X GPU and Ubuntu 16.04. CUDA 8.0 with the NVIDIA TITAN X(Pascal) GPU. 

@@ -19,7 +19,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 
 ## LSVH Dataset
 
-Our LSVH dataset is available for download at [Google Drive](https://drive.google.com/open?id=1yHeuZia3pbcbn8OLkotJGJGhczI7gM3e).       
+Our LSVH dataset is available for download at [Google Drive](https://drive.google.com/open?id=1raH0LF-hADB4BZmU9SAv19EWV6dxyQAw).       
 The split of train.txt and test.txt is based on the Strategy 1, and please use `SINet/data/LSVH/strategy2.m` to generate the train.txt and test.txt based on the Strategy 2; see paper for details.
 
 

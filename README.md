@@ -7,7 +7,7 @@ This implementation is written by Xiaowei Hu at the Chinese University of Hong K
 ***
 ```
 @article{hu2019sinet,        
-  title={SINet: A Scale-Insensitive Convolutional Neural Network for Fast Vehicle Detection},        
+  title={{SINet}: A Scale-Insensitive Convolutional Neural Network for Fast Vehicle Detection},        
   author={Hu, Xiaowei and Xu, Xuemiao and Xiao, Yongjie and Chen, Hao and He, Shengfeng and Qin, Jing and Heng, Pheng-Ann},        
   journal={IEEE Transactions on Intelligent Transportation Systems},        
   volume={20},        
